@@ -119,3 +119,10 @@ Step 8: Generate side-by-side Composite Plots to visualize any differences in th
 Step 9: Generate side-by-side Composite Plots to visualize any differences in the Cluster Plots:
 
 ![Scatter Composite Plots](cluster_composite.png)
+
+---
+
+## Contributors
+
+**Created by:** Tony Landero<br>
+**Email Adress:** mr.landero@gmail.com
