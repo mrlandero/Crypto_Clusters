@@ -77,3 +77,45 @@ conda install -c pyviz hvplot
 When the installation is complete, return to Step 2 in the previous section to verify the installation.
 
 You're now all set up! 
+
+---
+
+## Usage
+
+To use the Crypto_Clusters application simply clone the repository and run the **crypto_investments.ipynb** with:
+
+Step 1: Read-in the data provided in the Resources folder in order to plot it and understand what our original data entails:
+
+![Original Data Plot](original_data_plot.png)
+
+Step 2: Prepare the data by using the Standard Scaler Function of sklearn.preprocessing:
+
+![Scaled Data](scaled_data.png)
+
+Step 3: Create an Elbow-Curve to identify the best value for k:
+
+![Elbow Curve](elbow_curve.png)
+
+Step 4: Generate a Scatter Plot to visualize the original clusters:
+
+![First Crypto Cluster](first_cluster.png)
+
+Step 5: Optimize clusters with the use of Principal Component Analysis (PCA):
+
+![PCA DataFrame](pca_df.png)
+
+Step 6: Generate a second Elbow-Curve to find the optimal k for the PCA Data:
+
+![PCA Elbow-Curve](elbow_pca.png)
+
+Step 7: Generate a second Scatter Plot to visualize the PCA clusters generated:
+
+![PCA Clusters](pca_clusters.png)
+
+Step 8: Generate side-by-side Composite Plots to visualize any differences in the Elbow-Curves:
+
+![Elbow Composite Plots](elbow_composite.png)
+
+Step 9: Generate side-by-side Composite Plots to visualize any differences in the Cluster Plots:
+
+![Scatter Composite Plots](cluster_composite.png)
