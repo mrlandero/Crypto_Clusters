@@ -126,3 +126,9 @@ Step 9: Generate side-by-side Composite Plots to visualize any differences in th
 
 **Created by:** Tony Landero<br>
 **Email Adress:** mr.landero@gmail.com
+
+---
+
+## License
+
+MIT
